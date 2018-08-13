@@ -17,7 +17,7 @@ Author: Rob Willis (admin@robwillis.info)
 
 .EXAMPLE
 
-.\Set-PowerCfg.ps1
+./Set-PowerCfg.ps1
 
 .NOTES
 
