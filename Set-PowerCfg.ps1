@@ -17,7 +17,7 @@ Author: Rob Willis (admin@robwillis.info)
 
 .EXAMPLE
 
-./Set-PowerCfg.ps1
+.\Set-PowerCfg.ps1
 
 .NOTES
 
@@ -36,50 +36,50 @@ Function Pause {
 
 # Power saver - Option 1
 Function one {
-Powercfg -SETACTIVE SCHEME_MAX
-$currentScheme = Powercfg -getactivescheme
-$currentScheme = $currentScheme.split("()")
-Write-Host "Applied Power Scheme:" $currentScheme[1]
-Write-Host "`n"
-Pause
-Menu
+	Powercfg -SETACTIVE SCHEME_MAX
+	$currentScheme = Powercfg -getactivescheme
+	$currentScheme = $currentScheme.split("()")
+	Write-Host "Applied Power Scheme:" $currentScheme[1]
+	Write-Host "`n"
+	Pause
+	Menu
 }
 
 # Balanced - Option 2
 Function two {
-Powercfg -SETACTIVE SCHEME_BALANCED
-$currentScheme = Powercfg -getactivescheme
-$currentScheme = $currentScheme.split("()")
-Write-Host "Applied Power Scheme:" $currentScheme[1]
-Write-Host "`n"
-Pause
-Menu
+	Powercfg -SETACTIVE SCHEME_BALANCED
+	$currentScheme = Powercfg -getactivescheme
+	$currentScheme = $currentScheme.split("()")
+	Write-Host "Applied Power Scheme:" $currentScheme[1]
+	Write-Host "`n"
+	Pause
+	Menu
 }
 
 # High perf - Option 3
 Function three {
-Powercfg -SETACTIVE SCHEME_MIN
-$currentScheme = Powercfg -getactivescheme
-$currentScheme = $currentScheme.split("()")
-Write-Host "Applied Power Scheme:" $currentScheme[1]
-Write-Host "`n"
-Pause
-Menu
+	Powercfg -SETACTIVE SCHEME_MIN
+	$currentScheme = Powercfg -getactivescheme
+	$currentScheme = $currentScheme.split("()")
+	Write-Host "Applied Power Scheme:" $currentScheme[1]
+	Write-Host "`n"
+	Pause
+	Menu
 }
 
 # Show current settings- Option 0
 Function zero {
-$currentScheme = Powercfg -getactivescheme
-$currentScheme = $currentScheme.split("()")
-Write-Host "Current Power Scheme:" $currentScheme[1]
-Write-Host "`n"
-Pause
-Menu
+	$currentScheme = Powercfg -getactivescheme
+	$currentScheme = $currentScheme.split("()")
+	Write-Host "Current Power Scheme:" $currentScheme[1]
+	Write-Host "`n"
+	Pause
+	Menu
 }
 
 # Quit
 Function quit {
-exit
+	exit
 }
 
 # Menu
@@ -87,7 +87,7 @@ Function Menu {
 	# Clear the screen
 	Clear
 
-    # User input for website to scan
+	# User input for website to scan
 	Write-Host " "
 	Write-Host "Please select a Power Configuration Scheme.`n"
 	Write-Host "1 = Power saver"
