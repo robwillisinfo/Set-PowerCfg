@@ -12,3 +12,5 @@ Usage:
 .\Set-PowerCFG.ps1
 
 Screenshot:
+
+![alt text](https://github.com/robwillisinfo/Set-PowerCfg/blob/master/Set-PowerCfg.PNG)
