@@ -1,0 +1,2 @@
+# Set-PowerCfg
+Set-Powercfg
