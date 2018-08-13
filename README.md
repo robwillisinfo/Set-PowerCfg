@@ -3,7 +3,7 @@ This simple script can be used to easily set or check the current power scheme b
 applied, these are the same settings found in Control Panel > Power Options.
 
 This is particularly useful on laptops where CPU throttling may be an issue and there 
-is a need to easily switch between power profiles, ex plugged in vs running on 
+is a need to easily switch between power profiles, ie plugged in vs running on 
 battery.
 
 The script is menu driven, just run it and select a menu option.
