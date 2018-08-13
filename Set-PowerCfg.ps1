@@ -13,6 +13,8 @@ This is particularly useful on laptops where CPU throttling may be an issue and 
 is a need to easily switch between power profiles, ex plugged in vs running on 
 battery.
 
+Author: Rob Willis (admin@robwillis.info)
+
 .EXAMPLE
 
 .\Set-PowerCFG.ps1
