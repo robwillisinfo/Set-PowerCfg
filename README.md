@@ -9,7 +9,7 @@ battery.
 The script is menu driven, just run it and select a menu option.
 
 Usage:
-.\Set-PowerCfg.ps1
+./Set-PowerCfg.ps1
 
 Screenshot:
 
